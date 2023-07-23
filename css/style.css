@@ -1,0 +1,32 @@
+.todo-text {
+    text-align: center;
+}
+
+.card {
+    text-align: center;
+}
+
+input {
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.add-button {
+ background: green;
+ cursor: pointer;
+ color: white;
+ border: none;
+ border-radius: 5px;
+ padding: 5px 10px;
+}
+
+.delete-btn {
+    cursor: pointer;
+    color: red;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.product-item input[type="checkbox"]:checked + .product-name {
+    text-decoration: line-through;
+}
